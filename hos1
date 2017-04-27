@@ -1,0 +1,20 @@
+#include<iostream.h>
+void addP();
+void main()
+{
+ char a='y';
+ do
+ {
+  addP();
+  cout<<"Press y to add more, and n to leave";
+  cin>>a;
+ }while(a=='y'||a=='Y');
+ }
+ void addP()
+ {
+  char a[20];int b;
+  cout<<"Enter name";
+  gets(a);
+  cout<<"Enter no.";
+  cin>>b;
+  }
